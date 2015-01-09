@@ -11,5 +11,9 @@
     "url": "https://github.com/paulmillr/console-polyfill"
   },
   "author": "Paul Miller (paulmillr.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "spm": {
+    "main": "index.js",
+    "buildArgs": "--include standalone"
+  }
 }
